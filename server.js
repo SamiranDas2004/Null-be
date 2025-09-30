@@ -31,6 +31,6 @@ app.use('/api/event',eventRouter)
 
 const port =8000
 app.listen(port, async () => {
-    await connectDB();
+    // await connectDB();
     console.log("The server is listening on port ", port);
 });
